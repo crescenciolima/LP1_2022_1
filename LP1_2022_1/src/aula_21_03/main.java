@@ -1,4 +1,4 @@
-import java.util.Calendar;
+package aula_21_03;
 
 public class main {
 
@@ -10,10 +10,5 @@ public class main {
 		System.out.printf("M = %d X = %d", m, x);
 		y = n++;
 		System.out.printf("\nN = %d Y = %d", n, y);
-		
-		Calendar calendario = Calendar.getInstance();
-		
-		
 	}
-
 }
