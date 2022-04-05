@@ -24,12 +24,17 @@ public class Produto {
 		this.qtd = qtd;
 	}
 	
+	private double valor_total() {
+		return valor*qtd;
+	}
+	
 	public void relatorio() {
 		System.out.println("---------------------------------------");
 		System.out.println(":: Resumo do Estoque ::");
 		System.out.println("Descrição do Produto: " + descricao);
-		System.out.println("Valor do Produto: " + valor);
+		System.out.println("Valor do Produto: R$ " + valor);
 		System.out.println("Quantidade do Produto em estoque: " + qtd);
+		System.out.println("Valor total dos produtos: R$ " + valor_total());
 	}
 	
 }
