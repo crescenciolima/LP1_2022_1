@@ -23,7 +23,7 @@ Clone the project
 
 Contributors
 ---------------------------
-Crescencio Lima [@cretchas](www.crescenciolima.com).
+Crescencio Lima @cretchas.
 
 License
 ---------------------------
