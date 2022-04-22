@@ -23,7 +23,7 @@ Clone the project
 
 Contributors
 ---------------------------
-Crescencio Lima @cretchas.
+[![crescencio-lima](https://img.shields.io/badge/crescencio--lima-github-black?colorA=808080&colorB=000000&style=for-the-badge)](https://www.github.com/crescenciolima)
 
 License
 ---------------------------
