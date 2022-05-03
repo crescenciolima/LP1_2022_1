@@ -1,4 +1,4 @@
-package aula_04_04;
+package aula_03;
 
 public class Produto {
 	private String descricao;

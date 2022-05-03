@@ -1,4 +1,4 @@
-package aula_11_04;
+package aula_04;
 
 public class AlunoTeste {
 

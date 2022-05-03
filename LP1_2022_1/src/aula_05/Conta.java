@@ -1,23 +1,16 @@
-package aula_04_04;
+package aula_05;
 
 public class Conta {
 	private String numero;
 	private double saldo;
-	
-	public String getNumero(){
-		return numero;
-	}
-	
-	public void setNumero(String numero_temp){
-		numero = numero_temp;
-	}
 
-	public double getSaldo() {
-		return saldo;
-	}
-
-	public void setSaldo(double saldo) {
+	public Conta(String numero, double saldo){
+		this.numero = numero;
 		this.saldo = saldo;
+	}
+
+	public String getNumero() {
+		return numero;
 	}
 
 	public void creditar(double valor){
@@ -39,3 +32,4 @@ public class Conta {
 	}
 	
 }
+

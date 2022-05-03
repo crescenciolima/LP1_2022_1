@@ -1,4 +1,4 @@
-package aula_28_03;
+package aula_02;
 
 public class exemplo_3 {
 
