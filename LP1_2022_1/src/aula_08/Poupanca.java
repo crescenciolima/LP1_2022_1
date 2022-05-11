@@ -1,15 +1,11 @@
-package aula_06_conta;
+package aula_08;
 
 public class Poupanca extends Conta{
     private String matricula;
-    
-    public Poupanca(String numero, double saldo, String matricula) {
+
+    public Poupanca(String numero, double saldo, String matricula){
         super(numero, saldo);
         this.matricula = matricula;
-    }
-
-    public void renderJuros(){
-        saldo += saldo * 0.01;
     }
 
     @Override
@@ -17,4 +13,5 @@ public class Poupanca extends Conta{
         super.imprimir();
         System.out.println("Matricula: " + matricula);
     }
+
 }

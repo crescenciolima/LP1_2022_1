@@ -1,6 +1,6 @@
-package aula_06_conta;
+package aula_07_conta;
 
-public class App {
+public class App_alternativo {
     public static void main(String[] args) throws Exception {
 
         Conta c1 = new Conta("123", 100.0);
@@ -11,12 +11,12 @@ public class App {
         p1.renderJuros();
         //p1.imprimir();
 
-        Repositorio BD = new Repositorio();
+        Repositorio_alternativo BD = new Repositorio_alternativo();
         BD.inserir(c1);
-        BD.inserir(c2);
         BD.inserir(p1);
-
         BD.imprimir();
+        BD.procurar(c1);
+        BD.procurar(c2);
 
     }
 }

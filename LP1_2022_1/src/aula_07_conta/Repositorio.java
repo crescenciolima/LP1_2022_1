@@ -1,4 +1,4 @@
-package aula_06_conta;
+package aula_07_conta;
 
 public class Repositorio {
     private Conta [] contas;

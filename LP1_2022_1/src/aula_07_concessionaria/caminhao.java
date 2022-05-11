@@ -1,4 +1,4 @@
-package aula_06_concessionaria;
+package aula_07_concessionaria;
 
 public class caminhao extends veiculo{
     private double carga;
